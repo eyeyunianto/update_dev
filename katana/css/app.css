@@ -84,7 +84,7 @@
 	#btn_subscribe .b_txt{display: none;}
 }
 
-.clock{font-size: 50pt;color: #fff;text-align: center;font-family: "Designosaur"}
+.clock{font-size: 48pt;color: #fff;text-align: center;font-family: "Designosaur"}
 .clock:hover,.clock:focus{text-shadow: 1px 1px 5px #2EEAFF;}
 .subscribe{background-color: #333;border:2px solid #fff;width: 78px;padding:4.5px;padding-left: 10px;padding-right: 10px;font-size: 12px;}
 #e_subscribe{width: 250px;}
