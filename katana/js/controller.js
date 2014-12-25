@@ -31,10 +31,10 @@ App.CountdownController = Ember.ObjectController.extend({
       .on('update.countdown', function(event) {
         var format = '%H:%M:%S';
         if(event.offset.days > 0) {
-          format = '%-d day%!d<br>' + format;
+          format = '<span class="c_txt">%-d day%!d</span><br>' + format;
         }
         if(event.offset.weeks > 0) {
-          format = '%-w week%!w <br>' + format;
+          format = '<span class="c_txt">%-w week%!w</span><br>' + format;
         }
         $(this).html(event.strftime(format));
       })
