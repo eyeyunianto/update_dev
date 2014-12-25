@@ -1,0 +1,85 @@
+.center{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.back{
+	background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed; 
+	top: 0; 
+	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+
+}
+
+@media screen and (min-width: 701px) {
+	#btn_subscribe .b_icon{display: none}
+}
+
+@media screen and (max-width: 700px) {
+	.back .center .logo_count img{width: 120px;}
+	.back .center .clock {font-size: 35px;}
+	.back .center #e_subscribe{width: 230px}
+	#btn_subscribe .b_icon{display: none}
+	#btn_subscribe .b_txt{display: block;}
+}
+@media screen and (min-width: 601px) and (max-height: 500px) {
+	.back .center .logo_count img{width: 110px;}
+	.back .center .clock {font-size: 32px;}
+	.back .center #e_subscribe{width: 200px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none}
+}
+@media screen and (max-width: 600px) {
+	.back .center .logo_count img{width: 110px;}
+	.back .center .clock {font-size: 32px;}
+	.back .center #e_subscribe{width: 200px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none}
+}
+@media screen and (max-width: 500px), screen and(max-height: 500px){
+	.back .center .logo_count img{width: 100px;}
+	.back .center .clock {font-size: 28px;}
+	.back .center #e_subscribe{width: 150px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none}
+}
+@media screen and (max-height: 330px) {
+	.back .center .logo_count img{width: 70px;}
+	.back .center .clock {font-size: 20px;}
+	.back .center #e_subscribe{width: 130px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none;}
+}
+@media screen and (max-height: 250px) {
+	.back .center .logo_count img{width: 50px;}
+	.back .center .clock {font-size: 15px;}
+	.back .center #e_subscribe{width: 120px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none;}
+}
+@media screen and (max-height: 200px) {
+	.back .center .logo_count img{display: none}
+	.back .center .clock {font-size: 20px;}
+	.back .center #e_subscribe{width: 150px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none;}
+}
+
+.clock{font-size: 50px;color: #fff;text-align: center;}
+.subscribe{background-color: #333;border:2px solid #fff;width: 78px;padding:4.5px;padding-left: 10px;padding-right: 10px;font-size: 12px;}
+#e_subscribe{width: 250px;}
+.logo_count{text-align: center;}
+#txt_subscribe{margin-right: 5px;border-radius: 7px;}
+

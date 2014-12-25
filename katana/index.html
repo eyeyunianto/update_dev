@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kalam</title>
+  <!--Plugin Css-->
+  <link rel="stylesheet" href="css/libs/font-awesome.css">
+
+  <!--Main Css-->
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <script type="text/javascript">
+  </script>
+  <script type="text/x-handlebars" data-template-name="application">
+    {{outlet}}
+    {{outlet modal}}
+  </script>
+  <script type="text/x-handlebars" id="components/modal-dialog">
+    <div class="overlay" {{action 'closeModal' bubbles=false}}>
+      {{yield}}
+    </div>
+  </script>
+  <script type="text/x-handlebars" id="index">
+    {{outlet}}
+  </script>
+  <script type="text/x-handlebars" id="countdown">
+    <div class="back">
+      <div class="center">
+        <div class="logo_count"><img src="images/selasar.png"></div>
+        <div class="clock" style="">00:00:00</div>
+        <div id="e_subscribe" class="input-group"><input type="text" class="form-control radius" placeholder="type your email" id="txt_subscribe"><span class="input-group-addon" style="padding:0;background:transparent;border-color:transparent"><button id="btn_subscribe" class="radius subscribe"><span class="b_txt">subscribe</span><span class="b_icon fa fa-paper-plane"></span></button></span></div>
+      </div>
+    </div>
+  </script>
+  <script type="text/x-handlebars" id="home">
+  Halooo... Kalam is Release
+  </script>
+
+  <script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/handlebars-v1.3.0.js"></script>
+  <script src="js/libs/ember-1.8.1.js"></script>
+  <script src="js/libs/jquery.preload.js"></script>
+  <script src="js/libs/jquery.endless-scroll.js"></script>
+  <script src="js/libs/jquery.countdown.js"></script>
+  <script src="js/libs/freewall.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/plugin.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
