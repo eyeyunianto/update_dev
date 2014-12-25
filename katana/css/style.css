@@ -2,7 +2,6 @@
 .ember-application {
     /*margin: 20px;*/
     overflow: hidden;
-    font-family: "Roboto";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

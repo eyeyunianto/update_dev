@@ -27,23 +27,6 @@ App.CountdownController = Ember.ObjectController.extend({
     countdown:function(){
       var link = this;
       var clock;
-      // $(document).ready(function() {
-      //   var currentDate = new Date();
-      //   var release = new Date(2014, 11, 29);
-      //   var diff = release.getTime() / 1000 - currentDate.getTime() / 1000
-      //   console.log(diff)
-      //   console.log(release)
-      //   console.log(currentDate)
-      //   clock = $('.clock').FlipClock(diff, {
-      //     clockFace: 'DailyCounter',
-      //     countdown:true,
-      //     callbacks:{
-      //       stop:function(){
-      //         link.transitionTo('home')
-      //       }
-      //     }
-      //   });
-      // });
     $('.clock').countdown('2014/12/29 00:00:00')
       .on('update.countdown', function(event) {
         var format = '%H:%M:%S';
@@ -58,6 +41,14 @@ App.CountdownController = Ember.ObjectController.extend({
       .on('finish.countdown', function(event) {
         location.href="#/home"
       });
+    },
+    subscribe:function(){
+      var txt = $('#txt_subscribe').val()
+      if(txt!=''&& txt!='required'){
+        alert('Your email '+txt+' was subscribe')
+      }else{
+        error_handling('#txt_subscribe','required')
+      }
     }
   }
 })
