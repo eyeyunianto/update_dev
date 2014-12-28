@@ -1,0 +1,79 @@
+@media screen and (min-height: 1000px) {
+	.back .left_side img{top: 40%;}
+}
+
+@media screen and (min-width: 868px) {
+	#btn_subscribe .b_icon{display: none}
+	.h_txt{display: block;}
+	.h_icon{display: none;}
+}
+
+@media screen and (max-width: 867px) {
+	.h_txt{display: none;}
+	.h_icon{display: block;}
+	.back .right_side .land_act .act{margin-left: 57px;}
+}
+
+@media screen and (max-width: 700px) {
+	.back .center .logo_count img{width: 120px;}
+	.back .center .clock {font-size: 35pt;}
+	.back .center .clock .c_txt{font-size: 28pt;}
+	.back .center #e_subscribe{width: 230px}
+	#btn_subscribe .b_icon{display: none}
+	#btn_subscribe .b_txt{display: block;}
+	.h_txt{display: none;}
+	.h_icon{display: block;}
+}
+@media screen and (min-width: 601px) and (max-height: 500px) {
+	.back .center .logo_count img{width: 110px;}
+	.back .center .clock {font-size: 32pt;}
+	.back .center .clock .c_txt{font-size: 25pt;}
+	.back .center #e_subscribe{width: 200px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none}
+}
+@media screen and (max-width: 600px) {
+	.back .center .logo_count img{width: 110px;}
+	.back .center .clock {font-size: 32pt;}
+	.back .center .clock .c_txt{font-size: 25pt;}
+	.back .center #e_subscribe{width: 200px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none}
+}
+@media screen and (max-width: 500px), screen and(max-height: 500px){
+	.back .center .logo_count img{width: 100px;}
+	.back .center .clock {font-size: 28pt;}
+	.back .center .clock .c_txt{font-size: 20pt;}
+	.back .center #e_subscribe{width: 150px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none}
+}
+@media screen and (max-height: 330px) {
+	.back .center .logo_count img{width: 70px;}
+	.back .center .clock {font-size: 20pt;}
+	.back .center .clock .c_txt{font-size: 18pt;}
+	.back .center #e_subscribe{width: 130px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none;}
+}
+@media screen and (max-height: 250px) {
+	.back .center .logo_count img{width: 50px;}
+	.back .center .clock {font-size: 15pt;}
+	.back .center .clock .c_txt{font-size: 12pt;}
+	.back .center #e_subscribe{width: 120px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none;}
+}
+@media screen and (max-height: 200px) {
+	.back .center .logo_count img{display: none}
+	.back .center .clock {font-size: 20pt;}
+	.back .center .clock .c_txt{font-size: 16pt;}
+	.back .center #e_subscribe{width: 150px}
+	#btn_subscribe{padding:5px;width: 40px}
+	#btn_subscribe .b_icon{display: block;}
+	#btn_subscribe .b_txt{display: none;}
+}
