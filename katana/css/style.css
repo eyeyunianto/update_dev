@@ -1,13 +1,23 @@
 /* Put your CSS here */
 .ember-application {
-    /*margin: 20px;*/
-    overflow: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /*margin: 20px;*/
+  /*overflow: hidden;*/
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .ember-application:hover,
 .ember-application:focus{
-	overflow-y: auto;
+	/*overflow-y: auto;*/
+}
+
+a:link {
+  text-decoration: initial;
+  color: #fff;
 }
 
 input[type="text"],

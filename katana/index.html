@@ -37,7 +37,86 @@
     </div>
   </script>
   <script type="text/x-handlebars" id="home">
-  Halooo... Kalam is Release
+    <div class="back">
+      <div class="left_side">
+        <img src="images/png/phone.png">
+      </div>
+      <div class="right_side">
+        <div class="land_content">
+          <div class="land_title">Kalam</div>
+          <div class="land_desc">This is Photoshop 's version&nbsp;&nbsp;of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </div>
+          <div class="land_act">
+            <span class="h_txt"><img class="img2" src="images/png/playstore.png"></span>
+            <span class="h_icon"><img class="img" src="images/png/playstore_icon.png"></span>
+            <div>
+              {{#link-to "howto.featured"}}<button class="act"><span class="h_txt">Panduan Fitur</span><span class="h_icon fa fa-paper-plane"></span></button>
+              <button><span class="h_txt">Send Us Feedback</span><span class="h_icon fa fa-paper-plane"></span></button>{{/link-to}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span class="copyright">copyright: </span><span class="pt">PT. Hasanah Media International 2014</span></div>
+    </div>
+  </script>
+  <script type="text/x-handlebars" id="howto">
+    <div class="back">
+      {{#link-to "howto.featured"}}<div id="hw_title">Kalam </div>{{/link-to}}
+      <div class="dropdown">
+        <ul><li>
+            {{#link-to "howto.featured"}}<div>Panduan Fitur <i class="fa fa-caret-down"></i></div>{{/link-to}}
+            <ul>
+              {{#link-to "howto.activity"}}<li>Activity</li>{{/link-to}}
+              {{#link-to "howto.feeds"}}<li>Feeds</li>{{/link-to}}
+              {{#link-to "howto.prayer"}}<li>Prayer Time</li>{{/link-to}}
+              {{#link-to "howto.qiblah"}}<li>Qiblah Compass</li>{{/link-to}}
+              {{#link-to "howto.masjid"}}<li>Masjid Profile</li>{{/link-to}}
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="main_side">
+        {{outlet}}
+      </div>
+      <div class="footer"><span class="copyright">copyright: </span><span class="pt">PT. Hasanah Media International 2014</span></div>
+    </div>
+  </script>
+  <script type="text/x-handlebars" id="howto/featured">
+    featured
+  </script>
+  <script type="text/x-handlebars" id="howto/activity">
+    <img class="main_image" src="images/png/activity.png">
+      <div id="tombol-sidebar-membantu-anda-mengakses-menu-menu-utama-kalamapp">
+        <p class="">
+          tombol <strong>sidebar </strong>membantu anda mengakses menu-menu utama KalamApps.
+        </p>
+      </div>
+     <div id="tekan-tombol-next-untuk-menavigasi-anda-ke-halaman-masjid-profi">
+        <p>
+          tekan tombol <strong>next </strong>untuk menavigasi anda ke halaman <strong>Masjid Profile </strong>yang akan anda tuju.
+        </p>
+      </div>
+      <div id="tombol-search-untuk-membantu-anda-melakukan-pencarian-berdasark">
+        <p>
+          tombol <strong>Search </strong>untuk membantu anda melakukan pencarian berdasarkan nama masjid.
+        </p>
+      </div>
+      <div id="tekan-go-untuk-membantu-anda-memandu-dengan-petadigital-mene">
+        <p class="text-style-2">
+          tekan<strong> GO,</strong><span class="span-1"> </span>untuk membantu anda memandu dengan petadigital menemukan lokasi masjid terdekat.
+        </p>
+      </div>
+  </script>
+  <script type="text/x-handlebars" id="howto/feeds">
+    feeds
+  </script>
+  <script type="text/x-handlebars" id="howto/prayer">
+    prayer
+  </script>
+  <script type="text/x-handlebars" id="howto/qiblah">
+    qiblah
+  </script>
+  <script type="text/x-handlebars" id="howto/masjid">
+    masjid
   </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>
