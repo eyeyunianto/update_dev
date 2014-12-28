@@ -1,5 +1,5 @@
 @media screen and (min-height: 1000px) {
-	.back .left_side img{top: 0;bottom: 15%;margin: auto;}
+	.back .right_side .land_content{top: 45%;}
 }
 
 @media screen and (min-width: 868px) {
