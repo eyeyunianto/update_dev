@@ -20,7 +20,7 @@
 .back .right_side .land_act .act{margin-left: 115px;}
 
 @media screen and (min-height: 1024px) {
-	.back .left_side img{top: 45%;}
+	.back .left_side img{top: 35%;}
 }
 
 @media screen and (min-width: 868px) {
