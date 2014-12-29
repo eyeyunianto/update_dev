@@ -50,8 +50,8 @@
             <span class="h_txt"><img class="img2" src="images/png/playstore.png"></span>
             <span class="h_icon"><img class="img" src="images/png/playstore_icon.png"></span>
             <div>
-              {{#link-to "howto.featured"}}<button class="act"><span class="h_txt">Panduan Fitur</span><span class="h_icon fa fa-paper-plane"></span></button>
-              <button><span class="h_txt">Send Us Feedback</span><span class="h_icon fa fa-paper-plane"></span></button>{{/link-to}}
+              {{#link-to "howto.featured"}}<button class="act"><span class="h_txt">Panduan Fitur</span><span class="h_icon fa fa-life-ring"></span></button>{{/link-to}}
+              <button><span class="h_txt">Send Us Feedback</span><span class="h_icon fa fa-paper-plane"></span></button>
             </div>
           </div>
         </div>
@@ -82,42 +82,112 @@
     </div>
   </script>
   <script type="text/x-handlebars" id="howto/featured">
-    featured
+    
   </script>
   <script type="text/x-handlebars" id="howto/activity">
     <img class="main_image" src="images/png/activity.png">
-      <div id="tombol-sidebar-membantu-anda-mengakses-menu-menu-utama-kalamapp">
-        <p class="">
-          tombol <strong>sidebar </strong>membantu anda mengakses menu-menu utama KalamApps.
-        </p>
-      </div>
-     <div id="tekan-tombol-next-untuk-menavigasi-anda-ke-halaman-masjid-profi">
-        <p>
-          tekan tombol <strong>next </strong>untuk menavigasi anda ke halaman <strong>Masjid Profile </strong>yang akan anda tuju.
-        </p>
-      </div>
-      <div id="tombol-search-untuk-membantu-anda-melakukan-pencarian-berdasark">
-        <p>
-          tombol <strong>Search </strong>untuk membantu anda melakukan pencarian berdasarkan nama masjid.
-        </p>
-      </div>
-      <div id="tekan-go-untuk-membantu-anda-memandu-dengan-petadigital-mene">
-        <p class="text-style-2">
-          tekan<strong> GO,</strong><span class="span-1"> </span>untuk membantu anda memandu dengan petadigital menemukan lokasi masjid terdekat.
-        </p>
-      </div>
+    <div id="a_side">
+      <p class="txt_det">
+        tombol <strong>sidebar </strong>membantu anda mengakses menu-menu utama KalamApps.
+      </p>
+    </div>
+   <div id="a_next">
+      <p class="txt_det">
+        tekan tombol <strong>next </strong>untuk menavigasi anda ke halaman <strong>Masjid Profile </strong>yang akan anda tuju.
+      </p>
+    </div>
+    <div id="a_search">
+      <p class="txt_det">
+        tombol <strong>Search </strong>untuk membantu anda melakukan pencarian berdasarkan nama masjid.
+      </p>
+    </div>
+    <div id="a_go">
+      <p class="txt_det">
+        tekan<strong> GO,</strong><span class="span-1"> </span>untuk membantu anda memandu dengan petadigital menemukan lokasi masjid terdekat.
+      </p>
+    </div>
   </script>
   <script type="text/x-handlebars" id="howto/feeds">
-    feeds
+    <img class="main_image1" src="images/png/feeds.png">
+    <div id="f_profile">
+      <p class="txt_det">
+        Anda dapat melihat aktifitas ustad yang telah terverifikasi. Anda pun bisa melihat <strong>Profile User </strong>ustad yang anda ikuti dengan menekan profile picture ustad tersebut.
+      </p>
+    </div>
+   <div id="f_keg">
+      <p class="txt_det">
+        info kegiatan masjid yang sedang maupun akan dilaksanakan
+      </p>
+    </div>
+    <div id="f_foto">
+      <p class="txt_det">
+        Anda pun bisa melihat informasi foto-foto kegiatan masjid yang sedang berlangsung
+      </p>
+    </div>
   </script>
   <script type="text/x-handlebars" id="howto/prayer">
-    prayer
+    <img class="main_image1" src="images/png/time.png">
+    <div id="t_alarm">
+      <p class="txt_det">
+        alarm Adzan akan berbunyi jika waktu sholat akan tiba.
+      </p>
+    </div>
+   <div id="t_info">
+      <p class="txt_det">
+        informasi waktu sholat selanjutnya.
+      </p>
+    </div>
+    <div id="t_setting">
+      <p class="txt_det">
+        tombol <strong>Setting </strong>membantu anda untuk menyesuaikan kalender, waktu alarm azdan, dan mengedit lokasi dimana anda tinggal.
+      </p>
+    </div>
+    <div id="t_tgl">
+      <p class="txt_det">
+        tanggal dan kalender.
+      </p>
+    </div>
+    <div id="t_lokasi">
+      <p class="txt_det">
+        informasi Lokasi dimana anda tinggal.
+      </p>
+    </div>
+    <div id="t_masjid">
+      <p class="txt_det">
+        informasi masjid terdekat, memandu anda menemukan lokasi masjid.
+      </p>
+    </div>
   </script>
   <script type="text/x-handlebars" id="howto/qiblah">
-    qiblah
+    <img class="main_image1" src="images/png/qiblah.png" style="width:25%">
+    <div id="q_lokasi">
+      <p class="txt_det">
+        Lokasi Anda saat ini.
+      </p>
+    </div>
+    <div id="q_kompas">
+      <p class="txt_det">
+        Kompas kiblat akan memandu Anda menemukan arah kiblat dengan mudah.
+      </p>
+    </div>
   </script>
   <script type="text/x-handlebars" id="howto/masjid">
-    masjid
+    <img class="main_image1" src="images/png/masjid.png">
+    <div id="m_info">
+      <p class="txt_det">
+        info profile masjid, berisi alamat masjid, nomor telepon yang bisa dihubungi, pengurus masjid dan ustadz yang terdaftar di masjid tersebut.
+      </p>
+    </div>
+    <div id="m_keg">
+        <p class="txt_det">
+          info kegiatan masjid yang sedang, maupun akan dilaksanakan.
+        </p>
+      </div>
+      <div id="m_foto">
+        <p class="txt_det">
+          Anda pun bisa melihat informasi foto-foto kegiatan masjid yang sedang berlangsung.
+        </p>
+      </div>
   </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>
