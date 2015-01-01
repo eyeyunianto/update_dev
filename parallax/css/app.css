@@ -1,0 +1,136 @@
+.center{
+	position: fixed;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.back{
+	background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed; 
+	top: 0; 
+	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.clock{;font-size: 50pt;color: #fff;text-align: center;font-family: "Designosaur";line-height: 1;}
+.clock:hover,.clock:focus{text-shadow: 1px 1px 5px #2EEAFF;}
+.subscribe{background-color: #333;border:2px solid #fff;width: 78px;padding:4.5px;padding-left: 10px;padding-right: 10px;font-size: 12px;}
+#e_subscribe{width: 260px;}
+.logo_count{text-align: center;}
+#txt_subscribe{margin-right: 5px;border-radius: 7px;}
+.c_txt{font-size: 36pt;line-height: 1;}
+
+.footer{position: absolute;width: 100%;background-color: rgba(0,0,0,0.5);bottom: 0;height: 30px;text-align: center;color: #fff;padding-top: 10px;}
+.footer .copyright{font-size: 9px;}
+.footer .pt{font-size: 10px; font-weight: bolder;}
+.back .left_side{position: absolute;left: 0;width: 50%;top:0;bottom: 40px;margin:auto}
+.back .right_side .land_act .act{margin-left: 115px;}
+.back .right_side{position: absolute;right: 0;width: 50%;top:0;bottom: 40px;margin:auto}
+.back .left_side img{position: absolute;width: 50%;top: 0;bottom: 0;right: 0;margin: auto}
+.back .right_side .land_content{position: absolute;top: 36%;margin-left: 20px;color: #fff;font-size: 10px;margin-right: 20px;line-height: 0.9;}
+.back .right_side .land_title{font-size: 100px;font-family: "Designosaur"}
+.back .right_side .land_act{padding-top: 12px;}
+.back .right_side .land_desc{margin-right: 50px;line-height: 1;font-size: 12px;}
+.back .right_side .land_act div button{margin-right: 15px;border: 1px solid #fff; border-radius: 5px;background-color: rgba(0,0,0,0.4);font-size: 12px;padding-left: 13px;padding-right: 13px;}
+.back .right_side .land_act .img2{position: absolute;height: 33px;cursor: pointer;border-radius: 5px;}
+.back .right_side .land_act .img{position: absolute;height: 20px;border: 1px solid #fff;border-radius: 5px;cursor: pointer;padding:5px;padding-left: 10px;padding-right: 10px;background-color: rgba(0,0,0,0.4);}
+.back .right_side .land_act div button:hover,.back .right_side .land_act div button:focus,.back .right_side .land_act img:hover,.back .right_side .land_act img:focus{background-color: #c92036;}
+.back .main_side{position: absolute;top:60px;bottom:40px; left:0;right:0;vertical-align: middle;color: #fff;font-size: 14px;}
+.back #hw_title{font-size: 30px;color: #fff;font-family: "Designosaur";font-variant: underline;margin: 30px 30px 0px;position: absolute;text-decoration: underline;}
+
+.back .dropdown{position:relative;top:29px;left:110px;color: #fff}
+.back .dropdown div{color: #fff}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 10px 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li ul li:hover {
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  z-index: 9999;
+  top: 30px;
+  left: 0;
+  width: 120px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: rgba(0,0,0,0.6); }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.main_image{width: 40%;top: 60px;bottom: 40px;left: 0;right: 0;margin: auto;position: absolute;}
+.main_image1{width: 30%;top: 60px;bottom: 40px;left: 0;right: 0;margin: auto;position: absolute;}
+
+.txt_det{width: 250px}
+#a_side{position: absolute;left: 16%;top:35%;text-align: right;}
+#a_search{position: absolute;left:70%;top:12%;}
+#a_next{position: absolute;left:62%;top:50%;}
+#a_go{position: absolute;left:70%;top:75%;}
+
+#f_profile{position: absolute;text-align: right;right: 65%;top:19%;}
+#f_keg{position: absolute;left: 64%;top: 48%}
+#f_foto{position: absolute;left: 65%;top: 71%}
+
+#t_alarm{position: absolute;text-align: right;right: 65%;top:55%;}
+#t_info{position: absolute;text-align: right;right: 66%;top:83%;}
+#t_setting{position: absolute;top: 1%;left: 66%}
+#t_tgl{position: absolute;top: 28%;left: 66%}
+#t_lokasi{position: absolute;top: 39%;left: 66%}
+#t_masjid{position: absolute;top: 63%;left: 66%}
+
+#q_lokasi{position: absolute;top: 26%;left: 63%}
+#q_kompas{position: absolute;top: 45%;left: 63%}
+
+#m_info{position: absolute;top: 40%;right: 66%;text-align: right;}
+#m_keg{position: absolute;top: 47%;left: 66%}
+#m_foto{position: absolute;top: 29%;left: 66%}
+
+
+
+
+
+
